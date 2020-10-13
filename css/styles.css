@@ -1,0 +1,60 @@
+
+.h1{
+
+    font-family: 'Cinzel', serif;
+}
+
+.nav-link:hover{
+    text-color:#a83d1d;
+}
+
+.page_bg{
+    background-color: #000000;
+}
+.bg_color{
+    background-color: #eaebe7;
+    opacity: .6;
+}
+.bg_color:hover{
+    opacity: 1;
+}
+
+
+.candle_img{
+    background-image: url(../imgs/candle_gif_animation.gif);
+    background-size: cover;
+    height: 425px;
+    background-position: 0px -90px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tarot_bg{
+    background-image: url(../imgs/page_bg_dsgn.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-position-x: 10px;
+    background-size: cover;
+    opacity: .8;
+
+    
+}
+
+.tarot_bg:hover{
+    opacity: 1;
+
+}
+
+.about{
+    height: 100px;
+}
+
+.about_pic:{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+}
+ul{
+    list-style: none;
+}
