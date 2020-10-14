@@ -1,7 +1,15 @@
 
-.h1{
+.h1, .h3{
 
     font-family: 'Cinzel', serif;
+}
+p, a, .body_text{
+    font-family: 'Marcellus', serif;
+
+}
+
+.h3{
+    color:#abaca8;
 }
 
 .nav-link:hover{
@@ -9,11 +17,14 @@
 }
 
 .page_bg{
-    background-color: #000000;
+    background-image: url(../imgs/potential_bg_light.gif);
+    background-size: contain;
+    background-position: -25px -100px;
+    /* background-color: #000000; */
+    
 }
 .bg_color{
     background-color: #eaebe7;
-    opacity: .6;
 }
 .bg_color:hover{
     opacity: 1;
@@ -37,7 +48,7 @@
     background-position-x: 10px;
     background-size: cover;
     opacity: .8;
-
+    z-index: -1;
     
 }
 
@@ -50,11 +61,11 @@
     height: 100px;
 }
 
-.about_pic:{
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
-
-}
 ul{
     list-style: none;
+}
+
+.footer_color{
+    background-color: #e5d4ba;
+    height:150px;
 }

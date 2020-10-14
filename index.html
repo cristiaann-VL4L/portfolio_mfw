@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Creative Corner</title>
   </head>
   <body class="page_bg">
     <!-- HEADER -->
@@ -25,25 +26,33 @@
             <div class="col-sm-10 col-lg-4 text-white">
                 <ul class="nav d-flex flex-row justify-content-end">
                     <li class="nav-item">
-                      <a class="nav-link text-white active" href="#">About</a>
+                      <a class="nav-link text-white active" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Recent Work</a>
+                      <a class="nav-link text-white" href="#recentwork">Recent Work</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Contact</a>
+                      <a class="nav-link text-white" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <p class="h3">Iluuminating Your Digital Pressence</p>
+          </div>
         </div>
     </div>
 
     <!-- RECENT WORK & CONTACT BUTTONS -->
 
     <div class="container tarot_bg d-flex justify-content-center align-items-center">
-          <button class="btn btn-light btn-outline-dark rounded-pill btn-lg pr-4 pl-4">Recent Work</button>
-          <button class="btn btn-light btn-outline-dark rounded-pill btn-lg pr-4 pl-4">Contact</button>
-          
+        <a href="#recentwork">
+          <button class="btn btn-light btn-outline-dark rounded-pill btn-lg mr-5 ml-5 shadow-lg">Recent Work</button>
+        </a>
+        <a href="#contact">
+          <button class="btn btn-light btn-outline-dark rounded-pill btn-lg mr-5 ml-5 shadow-lg">Contact</button>
+        </a>
         
 
 
@@ -51,18 +60,18 @@
 
     <!-- ABOUT ME -->
 
-    <div class="container container-fluid mt-0 bg_color pt-4 pb-4">
+    <div id="about" class="container container-fluid mt-0 bg_color pt-4 pb-4">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-sm-6 col-lg-3 bg_color">
             <img src="./imgs/me_bio_pic_markus-spiske-TRv06fGhj1E-unsplash.jpg" alt="stick figure drawing" class="img-fluid about_pic  shadow-lg">
           </div>
           <div class="col-sm-6 col-lg-7">
-            <p class="h1">Hello, World! I’m Cristian</p>
-            <p>Just a San Diego Native that moved to the Valley to make Fresno my home. I developed a knowledge of coding after taking part in the Geekwise Academy classes. Thanks to their experienced instructors I found passion in something I know I want to pursue and use to help others achieve their own set of goals and follow their passion. It took me moving to a new city to find the one thing I look forward to doing everyday, let me help you avoid the moving cost and grow your business here!</p>
+            <p class="h1">Hello, World! Cristian Here,</p>
+            <p>I'm just a San Diego Native that moved to the Valley to make Fresno my home. I developed a knowledge of coding after taking part in the amazing Geekwise Academy classes. Thanks to their experienced instructors I found passion in something I know I want to pursue and use to help others follow their own passion. It took me moving to a new city to find the one thing I look forward to doing everyday, let me help you avoid the moving cost and grow your business here instead!</p>
             <ul class="d-flex flex-row justify-content-center">
-              <li class="pl-2 pr-2"><a href="https://www.instagram.com/cristiaann_/"><img src="./imgs/instagram.png" alt="instagram"></a></li>
-              <li class="pl-2 pr-2"><a href="https://www.facebook.com/cristian.rincon.9/"><img src="./imgs/facebook.png" alt="facebook"></a></li>
-              <li class="pl-2 pr-2"><a href="https://www.snapchat.com/"><img src="./imgs/snapchat.png" alt="snaochat"></a></li>
+              <li class="pl-2 pr-2"><a href="https://www.instagram.com/geekwiseacademy/"><img src="./imgs/instagram.png" alt="instagram"></a></li>
+              <li class="pl-2 pr-2"><a href="https://www.facebook.com/search/top/?q=geekwise%20academy"><img src="./imgs/facebook.png" alt="facebook"></a></li>
+              <li class="pl-2 pr-2"><a href=""><img src="./imgs/snapchat.png" alt="snaochat"></a></li>
             </ul>
           </div>
         </div>
@@ -70,7 +79,7 @@
 
     <!-- RECENT WORK HEADING -->
 
-    <div class="container tarot_bg d-flex justify-content-around align-items-center">
+    <div id="recentwork" class="container tarot_bg d-flex justify-content-around align-items-center">
      <p class="h1 text-white ">Recent Work</p>
         
 
@@ -90,19 +99,24 @@
             </ol>
             <div class="carousel-inner shadow-lg">
               <div class="carousel-item active">
-                <img src="./imgs/mis_primos_brewing_site.png" class="d-block w-100" alt="Mis Primos Brewing Website">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
+                <a href="https://cristiaann-vl4l.github.io/Final-Project/">
+                  <img src="./imgs/mis_primos_brewing_site.png" class="d-block w-100" alt="Mis Primos Brewing Website"></a>
+                <!-- <div class="carousel-caption d-none d-md-block">
+                </div> -->
               </div>
               <div class="carousel-item">
-                <img src="./imgs/Sopi's cakes.png" class="d-block w-100" alt="Sopi's Cakes Website">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
+                <a href="">
+                  <img src="./imgs/Sopi's cakes.png" class="d-block w-100" alt="Sopi's Cakes Website">
+                </a>
+                <!-- <div class="carousel-caption d-none d-md-block">
+                </div> -->
               </div>
               <div class="carousel-item">
-                <img src="./imgs/hogwarts_home_pg.png" class="d-block w-100" alt="Hogwarts Website">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
+                <a href="https://cristiaann-vl4l.github.io/parallax-practice/">
+                  <img src="./imgs/hogwarts_home_pg.png" class="d-block w-100" alt="Hogwarts Website">
+                </a>
+                <!-- <div class="carousel-caption d-none d-md-block">
+                </div> -->
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -124,9 +138,9 @@
     </div>
 
     <!-- CONTACT FORM -->
-    <div class="container bg_color pt-3 pb-3">
-      <div class="row">
-        <div class="col-sm-6 col-lg-6">
+    <div id="contact" class="container bg_color pt-3 pb-3">
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-6 col-lg-6 body_text">
           <form>
             <div class="form-group">
               <label for="exampleFormControlInput1">Name</label>
@@ -141,11 +155,33 @@
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@rincon.com">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Tell Me A Bit Your Business</label>
-              <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="4" placeholder=" ex. I own a kissing booth and covid has really affected me"></textarea>
+              <label for="exampleFormControlTextarea1">Tell me a bit about your business</label>
+              <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="4" placeholder=" ex. I own a kissing booth and covid has really affected my business"></textarea>
             <button class="btn btn-light">Submit</button>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="container footer_color">
+      <div class="row d-flex align-items-center justify-content-center flex-row-reverse">
+        
+        <div class="col-sm-6 col-lg-2 text-center mt-3">
+          <ul class="d-flex flex-row justify-content-center">
+            <li class="pl-2 pr-2"><a href="https://www.instagram.com/geekwiseacademy/"><img src="./imgs/instagram.png" alt="instagram"></a></li>
+            <li class="pl-2 pr-2"><a href="https://www.facebook.com/search/top/?q=geekwise%20academy"><img src="./imgs/facebook.png" alt="facebook"></a></li>
+            <li class="pl-2 pr-2"><a href=""><img src="./imgs/snapchat.png" alt="snaochat"></a></li>
+          </ul>
+
+        </div>
+        <div class="col-sm-6 col-lg-2 mt-3 d-flex justify-content-center text-center">
+          <p clas="text-black text-center body_text">  Fresno, CA <br> (619) 599 - 0000 <br> creative@corner.com <br>  &#169; Creative Corner </p>
+
+
         </div>
       </div>
     </div>
